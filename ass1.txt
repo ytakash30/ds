@@ -115,3 +115,16 @@ interface ServerIntf extends Remote {
 
     public double mul(double a, double b) throws RemoteException;
 }
+
+
+
+//command to run 
+1->
+javac *.java
+rmiregistery
+
+2-> 
+java Server
+
+3->
+java Client 
